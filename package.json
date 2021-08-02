@@ -1,0 +1,26 @@
+{
+  "name": "storybook-decorator-issue",
+  "version": "0.1.1",
+  "description": "decorator issue",
+  "keywords": [
+    "storybook-addons"
+  ],
+  "license": "MIT",
+  "files": [
+    "README.md",
+    "*.js"
+  ],
+  "scripts": {
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook"
+  },
+  "devDependencies": {
+    "@storybook/addon-essentials": "^6.2.9",
+    "@storybook/react": "^6.2.9",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
